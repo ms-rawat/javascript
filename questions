@@ -1,0 +1,32 @@
+1.what is throtling funciton.
+Ans: A throttling function is a technique used in JavaScript to limit the execution of a function to at most once in a specified time interval, even if it's triggered multiple times. It helps improve performance, especially in cases like handling scroll, resize, and keypress events.
+eg.
+function throttle(func, limit) {
+    let inThrottle;
+    return function () {
+        const args = arguments;
+        const context = this;
+        if (!inThrottle) {
+            func.apply(context, args);
+            inThrottle = true;
+            setTimeout(() => inThrottle = false, limit);
+        }
+    };
+}
+
+use:
+const log = () => console.log("Throttled function called!");
+window.addEventListener("scroll", throttle(log, 1000));
+
+When to Use Throttling?
+Handling window resize events
+
+Optimizing infinite scrolling
+
+Limiting API requests (e.g., preventing spam clicks)
+
+
+
+
+
+
