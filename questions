@@ -30,3 +30,13 @@ Q3.Extend the local Storage to accept  an expiry time  and expire  the entry aft
 
 
 
+
+q4. cLASSESS IN javacript
+class Rectangle{
+    constructor {
+        this.hieght=height;
+        this.width=width;
+    }
+}
+
+
