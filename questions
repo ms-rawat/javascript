@@ -26,7 +26,7 @@ Optimizing infinite scrolling
 Limiting API requests (e.g., preventing spam clicks)
 
 
-
+Q3.Extend the local Storage to accept  an expiry time  and expire  the entry after that  time
 
 
 
