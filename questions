@@ -40,3 +40,16 @@ class Rectangle{
 }
 
 
+q4. impliment  a singly link list in javascript
+class Node {
+Constructor(value){
+this.value=value;
+this.next = null;
+}
+}
+class LinkList{
+constructor(){
+this.head = null;
+this.size = 0 ;
+}
+}
