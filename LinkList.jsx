@@ -57,4 +57,31 @@ class LinkList{
         this.size++;
         return this;
     }
+
+    removeAt(index)
+    {
+        if(index < 0 || index >=this.size)
+        {
+            throw new Error('invalid index')
+        }
+        let current = this.head;
+        if(index = 0)
+        {
+            this.head  = current.next;
+        }else{
+           let previous = null;
+            let count = 0;
+            while(count<index)
+                {
+                    previous = current;
+                    current  = current.next;
+                    count++;
+                }
+                previous.next = current.next;
+        }
+        this.size--;
+        return current.data;
+      
+    
+    }
 }
