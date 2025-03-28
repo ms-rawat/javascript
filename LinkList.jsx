@@ -81,7 +81,51 @@ class LinkList{
         }
         this.size--;
         return current.data;
-      
-    
     }
+    getAt(index)
+    {
+        if(index < 0 || index >= this.size)
+        {
+       throw new Error('Invalid index')
+        }
+
+        let current  = this.head;
+        let count = 0;
+
+        while(count < index)
+        {
+            current = current.nex;
+            count++;
+        }
+            return current.data;
+    }
+   clear(){
+    this.head = null;
+    this.size = 0 ;
+   }
+
+   print(){
+    let current = this.head;
+    const element =[];
+    while(current){
+        element.push(current.data)
+    }
+    console.log(element.join('->'))
+   }
+
+   isEmpty(){
+    return this.size ==0;
+   }
+
+   getSize(){
+    return this.size;
+   }
 }
+
+
+const list = new LinkList();
+list.append(10);
+list.append(20);
+list.append(30);
+
+list.print()
