@@ -31,3 +31,11 @@ console.log(reverseStringRecursive("hello")); // Output: "olleh"
 
 // 2. check pelindrom string
 
+const IsPelindrom=(str)=>{
+    if(str==='') return str
+    let revereredstr = str.split('').reverse().join('');
+    return str===revereredstr
+}
+
+console.log(IsPelindrom('sohos'))
+
