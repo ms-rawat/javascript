@@ -39,3 +39,12 @@ const IsPelindrom=(str)=>{
 
 console.log(IsPelindrom('sohos'))
 
+
+// 3. factorrial of a number 
+
+const factorrial=(num)=>{
+    if(num===0 || num===1) return 1;
+    return num*factorrial(n-1)
+}
+
+console.log(factorrial(4))

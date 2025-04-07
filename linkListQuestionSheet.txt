@@ -1,0 +1,49 @@
+🟢 Easy Level
+Reverse a Linked List
+Reverse a singly linked list.
+🔁 Iterative and recursive methods.
+
+Detect a Cycle in Linked List
+Use Floyd’s Cycle Detection algorithm (Tortoise and Hare).
+
+Find the Middle of the Linked List
+Return the middle node of a linked list.
+
+Check if Linked List is Palindrome
+Check if elements of the linked list form a palindrome.
+
+Merge Two Sorted Linked Lists
+Combine two sorted linked lists into a single sorted list.
+
+🟡 Medium Level
+Remove N-th Node From End
+Remove the N-th node from the end of the list in one pass.
+
+Add Two Numbers Represented by Linked Lists
+Each node contains a digit. Return the sum as a new list.
+
+Reorder Linked List
+Given 1 → 2 → 3 → 4 → 5, reorder to 1 → 5 → 2 → 4 → 3.
+
+Partition Linked List
+Partition a list around value x, keeping original relative order.
+
+Odd Even Linked List
+Group all odd-index nodes followed by even-index nodes.
+
+🔴 Hard Level
+Copy List with Random Pointer
+Each node has next and random pointers. Deep copy the list.
+
+Merge K Sorted Linked Lists
+Use a min-heap or divide and conquer strategy.
+
+Reverse Nodes in k-Group
+Reverse the nodes of a list k at a time.
+
+Flatten a Multilevel Doubly Linked List
+Each node may have a child list. Flatten into a single list.
+
+LRU Cache using Linked List
+Implement an LRU cache using a doubly linked list and a hashmap.
+
